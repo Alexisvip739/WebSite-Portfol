@@ -57,6 +57,7 @@
     color: black;
     border: 2px solid grey;
     transition: 1s all;
+    text-decoration: none;
 }
 .About{
     display: grid;
@@ -78,7 +79,7 @@
     margin: 20px auto;
     text-align:center;
     border: 2px solid black;
-    border-radius: 20px; 
+    border-radius: 10px; 
     box-shadow: 4px 4px 4px 7px rgba(20, 20, 20, 0.4);
 
     
@@ -95,9 +96,11 @@
     
 }
 .About .About-description .desc_p2{
-    color: grey;
-    line-height: 40px;
+    color: black;
+    margin-top: 40px;
+    line-height: 30px;
     font-size:18px;
+    font-weight: 600;
     
 }
 .About .skins{
@@ -163,7 +166,7 @@
     grid-column: 1fr;
     grid-row: 200px;
     text-align: center;
-    background-color: rgb(94, 93, 93);
+    background-color: rgb(81, 80, 80);
     box-shadow: 2px ;
     box-shadow: 3px 3px 3px rgba(32, 31, 31, 0.2);
     border-radius: 10px;
@@ -220,28 +223,22 @@
     
 }
 .container .cards-items{
-    background-color: rgba(54, 54, 52, 0.3);
+    background-color: rgba(100, 100, 99, 0.3);
     box-shadow: 5px 5px 5px  rgba(32, 31, 31, 0.5);
     grid-column: 1fr;
     grid-row: 250px;
-    border-radius: 1.5rem;
-   
+    border-radius:0.9rem;
 }
 .container .cards-items img{
     margin-top: 5px;
     width: 50px;
     height: 50px;
-   
-    
-    
 }
 .container .cards-items a img{
     margin-top: 5px;
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    
-    
 }
 .container .cards-items h3{
     font-size: 30px;
@@ -252,7 +249,6 @@
     font-size: 15x;
     font-weight: 500;
     color: black;
-
 }
 .middle{
     position: relative;
@@ -260,7 +256,6 @@
     min-width: 320px;
     margin: 20% auto;
     text-align: center;
-    
 }
 .middle h2{
     color: black;
@@ -278,17 +273,17 @@
     color: grey;
     overflow: hidden;
     position: relative;
-  }
-  .btn-1 i{
+}
+.btn-1 i{
     line-height: 90px;
     font-size: 26px;
     transition: 0.2s linear;
-  }
-  .btn-1:hover i{
+}
+.btn-1:hover i{
     transform: scale(1.3);
     color: #290e0e;
-  }
-  .btn-1::before{
+}
+.btn-1::before{
     content: "";
     position: absolute;
     width: 120%;
@@ -297,36 +292,36 @@
     transform: rotate(45deg);
     left: -110%;
     top: 90%;
-  }
-  .btn-1:hover::before{
+}
+.btn-1:hover::before{
     animation: aaa 0.7s 1;
     top: -10%;
     left: -10%;
-  }
+}
 
   
   
 
-  @media all and (min-width:768px) {
+@media all and (min-width:768px) {
     .container .products-cards{
         grid-template-columns: 1fr 1fr;
         
         
     }
-  }
-  @media all and (max-width:320px) {
+}
+@media all and (max-width:320px) {
     .middle{
         display: inline-block;
         width: 10%;
        
         
     }
-  }
-  @media all and (max-width:768px) {
+}
+@media all and (max-width:768px) {
     .middle{
         width: 50%;
     }
-  }
+}
 @media all and (min-width:768px) {
     
     .services-products .services-products--cards{
